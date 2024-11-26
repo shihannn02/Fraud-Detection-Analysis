@@ -17,7 +17,9 @@ The main aim is to select an optimal machine learning model comparing logistic r
 
 The whole procedure of this task is shown below:
 
-<img width="709" alt="截屏2024-11-26 16 44 16" src="https://github.com/user-attachments/assets/050588e5-808f-47f1-b904-8c0b1d2e8aea">
+<div align="center">
+  <img width="709" alt="截屏2024-11-26 16 44 16" src="https://github.com/user-attachments/assets/050588e5-808f-47f1-b904-8c0b1d2e8aea">
+</div>
 
 
 #### Dataset Preparation
@@ -29,8 +31,9 @@ In this study, we used a simulated credit card transaction dataset that includes
 
 In this tasks, we implemented 3 models namely logistic regression, decision tree and random forest, as these are the most commonly used machine learning model and have great interepretability (Easy for explanation is quite important). Futhermore, I also tried to addressed the problem of high data imbalance, which is quite important as this is frequenly met in fraud detection case. In this case, there are 492,494 non-fraud samples (98.5%) and 7,506 fraud samples (1.5%). Therefore, I tried to downsampling the majority class with ratio of 0.7 to make it more balanced. Moreover, FNR is used as the most important evaluation criterion for selecting models, and FPR as an auxiliary important evaluation indicator, ultimately determining the decision tree as the best model. Based on decision tree, we also addressed the issue of extremely imbalanced labels by exploring the optimal down sampling ratio and achieved a significant reduction in FNR.
 
-<img width="309" alt="截屏2024-11-26 16 43 19" src="https://github.com/user-attachments/assets/d29acbc0-bd8c-4504-b104-af7eba9d94ca">
-
+<div align="center">
+  <img width="309" alt="截屏2024-11-26 16 43 19" src="https://github.com/user-attachments/assets/d29acbc0-bd8c-4504-b104-af7eba9d94ca">
+</div>
 
 
 
