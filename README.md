@@ -27,7 +27,7 @@ In this study, we used a simulated credit card transaction dataset that includes
 
 **Note**: I only uploaded parts of dataset due to the limiations, the original dataset link is [here](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
-### Model Preparation and analysis
+### Model and analysis
 
 In this tasks, we implemented 3 models namely logistic regression, decision tree and random forest, as these are the most commonly used machine learning model and have great interepretability (Easy for explanation is quite important). Futhermore, I also tried to addressed the problem of high data imbalance, which is quite important as this is frequenly met in fraud detection case. In this case, there are 492,494 non-fraud samples (98.5%) and 7,506 fraud samples (1.5%). Therefore, I tried to downsampling the majority class with ratio of 0.7 to make it more balanced. Moreover, FNR is used as the most important evaluation criterion for selecting models, and FPR as an auxiliary important evaluation indicator, ultimately determining the decision tree as the best model. Based on decision tree, we also addressed the issue of extremely imbalanced labels by exploring the optimal down sampling ratio and achieved a significant reduction in FNR.
 
